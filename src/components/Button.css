@@ -1,0 +1,32 @@
+.button {
+    position: relative;
+    top: 50px;
+    left: 18%;
+    cursor: pointer;
+    font-size: 12px;
+    padding: 8px;
+    background-color: #21b6ae;
+    color: white;
+    border: white;
+    border-radius: 4px;
+    font-family: 'Spartan', serif;
+}
+
+.disable {
+    opacity: 0.3;
+}
+
+/* Tablets */
+@media only screen and (max-device-width: 990px) {
+    .button {
+        left: 25%;
+    }
+}
+
+/* Mobiles */
+@media only screen and (max-device-width: 600px) {
+    .button {
+        top: 80px;
+        left: 24%;
+    }
+}

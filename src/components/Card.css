@@ -1,0 +1,36 @@
+.card {
+    background: whitesmoke;
+    color: black;
+    width: 50%;
+    height: 150px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    padding-bottom: 8px;
+}
+
+.card .advice {
+    max-width: 90%;
+    font-size: 14px;
+    font-family: 'Spartan', serif;
+    padding: 0 30px 30px 30px;
+    overflow-wrap: break-word;
+}
+
+/* Tablets */
+@media only screen and (max-device-width: 990px) {
+    .card {
+        width: 75%;
+        
+    }
+}
+
+/* Mobiles */
+@media only screen and (max-device-width: 600px) {
+    .card {
+        width: 90%;
+        height: 212px;
+    }
+}
