@@ -17,6 +17,8 @@
     font-family: 'Spartan', serif;
     padding: 8px 30px 30px 30px;
     overflow-wrap: break-word;
+    z-index: 3;
+    overflow: visible;
 }
 
 /* Tablets */
